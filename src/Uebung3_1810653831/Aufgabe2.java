@@ -15,8 +15,11 @@ public class Aufgabe2 {
         System.out.println("Ergebnis der Subdraktion: " + rechnen.subdrahieren(88,333));
         System.out.println("Ergebnis der Division: " + rechnen.division(4566.344,23.33));
         System.out.println("Ergebnis der Multiplikation: " + rechnen.multiplikation(0.33,100));
-    }
 
+        //Aufgabe4:(FibonacciFolge)
+        System.out.println("Fibonacci Folge: " + rechnen.fibonacciFolge(7));
+    }
+    //Aufgabe2:
     public void partialString(String a)
     {
         if (a.length()<=3)              //.length() überprüft, wie lange der string ist.(nur bei String)

@@ -23,4 +23,14 @@ public class Taschenrechner {
     {
         return a * b;
     }
+    public int fibonacciFolge(int param)
+    {
+            if (param <= 1)
+            {
+                return param;
+            }else
+                {   //Methoden werden ineinander verschachtelt.
+                     return fibonacciFolge(param-2) + fibonacciFolge(param-1);
+                }
+    }
 }
