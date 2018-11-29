@@ -3,7 +3,7 @@ package Uebung3_1810653831;
 public class Aufgabe2 {
     public static void main(String[] args)
     {
-        //Aufgabe2:
+        //Aufgabe2:4
         //Instanz wird angelegt, damit die nicht Static Methode aufgerufen werden kann
         Aufgabe2 eingabe = new Aufgabe2();
         eingabe.partialString("hi");
@@ -16,8 +16,21 @@ public class Aufgabe2 {
         System.out.println("Ergebnis der Division: " + rechnen.division(4566.344,23.33));
         System.out.println("Ergebnis der Multiplikation: " + rechnen.multiplikation(0.33,100));
 
-        //Aufgabe4:(FibonacciFolge)
-        System.out.println("Fibonacci Folge: " + rechnen.fibonacciFolge(7));
+        //Aufgabe4:(FibonacciFolge)     rekrusiv:
+        System.out.println("Fibonacci Folge: " + rechnen.fibonacciFolge(1));
+        System.out.println("Fibonacci Folge: " + rechnen.fibonacciFolge(2));
+        System.out.println("Fibonacci Folge: " + rechnen.fibonacciFolge(3));
+        System.out.println("Fibonacci Folge: " + rechnen.fibonacciFolge(4));
+        System.out.println("Fibonacci Folge: " + rechnen.fibonacciFolge(5));
+        System.out.println("Fibonacci Folge: " + rechnen.fibonacciFolge(40));
+        //interativ:
+        System.out.println(rechnen.fibonacciFolgeIterativ(1));
+        System.out.println(rechnen.fibonacciFolgeIterativ(2));
+        System.out.println(rechnen.fibonacciFolgeIterativ(3));
+        System.out.println(rechnen.fibonacciFolgeIterativ(4));
+        System.out.println(rechnen.fibonacciFolgeIterativ(5));
+        System.out.println(rechnen.fibonacciFolgeIterativ(40));
+
     }
     //Aufgabe2:
     public void partialString(String a)
