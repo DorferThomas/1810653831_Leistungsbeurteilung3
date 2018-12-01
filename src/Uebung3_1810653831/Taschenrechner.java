@@ -41,6 +41,8 @@ public class Taschenrechner {
         if (param <= 1) {
             return param;
         }
+
+
         int a = 1;
         int b = 1;
 

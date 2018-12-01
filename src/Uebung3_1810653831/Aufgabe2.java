@@ -6,14 +6,18 @@ public class Aufgabe2 {
         //Aufgabe2:4
         //Instanz wird angelegt, damit die nicht Static Methode aufgerufen werden kann
         Aufgabe2 eingabe = new Aufgabe2();
-        eingabe.partialString("hi");
+        eingabe.partialString("hi333");
         eingabe.partialString("Dieser String ist 60 Stellen lang, geteilt durch 2 ergibt:  ");
 
         //Aufgabe3:(Taschenrechner)
         Taschenrechner rechnen = new Taschenrechner();
         System.out.println("Ergebnis der Addition: " + rechnen.addieren(12,23));
+        System.out.println("Ergebnis der Addition: " + rechnen.addieren(34,56));
+        System.out.println("Ergebnis der Subdraktion: " + rechnen.subdrahieren(44,3));
         System.out.println("Ergebnis der Subdraktion: " + rechnen.subdrahieren(88,333));
+        System.out.println("Ergebnis der Division: " + rechnen.division(66.34,3.33));
         System.out.println("Ergebnis der Division: " + rechnen.division(4566.344,23.33));
+        System.out.println("Ergebnis der Multiplikation: " + rechnen.multiplikation(3.1415,5));
         System.out.println("Ergebnis der Multiplikation: " + rechnen.multiplikation(0.33,100));
 
         //Aufgabe4:(FibonacciFolge)     rekrusiv:
@@ -30,7 +34,6 @@ public class Aufgabe2 {
         System.out.println(rechnen.fibonacciFolgeIterativ(4));
         System.out.println(rechnen.fibonacciFolgeIterativ(5));
         System.out.println(rechnen.fibonacciFolgeIterativ(40));
-
     }
     //Aufgabe2:
     public void partialString(String a)
@@ -43,4 +46,6 @@ public class Aufgabe2 {
             System.out.println(a.length()/2);
         }
     }
+
+
 }
