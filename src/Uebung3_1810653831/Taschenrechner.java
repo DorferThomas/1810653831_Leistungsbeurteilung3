@@ -32,7 +32,8 @@ public class Taschenrechner {
                     //nachdem vom "param" -2 abgezogen worden sind, übergibt die Methode wieder einen Param, wodurch der
                     //Prozess wieder wiederholt wird. So lange bis 1 oder 0 rauskommt.
                     //dann wird der speicherplatz(wo die einzelnen "Rückgabewerte" gespeicher werden)
-                    // abgerufen und dort steht immer eine 1 oder 0.
+                    //abgerufen und dort steht immer eine 1 oder 0.
+
                      return fibonacciFolge(param-2) + fibonacciFolge(param-1);
                 }
     }

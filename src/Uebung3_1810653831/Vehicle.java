@@ -9,6 +9,9 @@ public class Vehicle{
     double weight;
     String name;
 
+    //kann man auch mit Konstruktor machen. damit wir die Objekte mit anfangswerten in der Main erstellen können.
+    //public Vehicle(int kw, double kg, String carname){powerKw = kw; weight = kg; name = carname;}
+
     public String printName()
     {
         return name;
@@ -19,4 +22,5 @@ public class Vehicle{
         double powerPs = powerKw*1.36;
         JOptionPane.showMessageDialog(null,"Das Auto hat " + powerPs + " PS.");
     }
+
 }
